@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--for style-->
+    <link rel="stylesheet" href="style/style.css">
+    <!--for icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <title>Alaa saeed</title>
+</head>
+<body>
+<!--/*--------------------header section---------------------------*/-->
+    <header class="header">
+        <a href="#" class="logo">ALAA</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--/*--------------------home section---------------------------*/-->
+   <main class="home">
+        <div class="home_content">
+            <h3>helloo..!</h3>
+            <h1>I'm <span>Alaa saeed</span>  a frontend developer</h1>
+            <p>
+                Hi! I,m Alaa Saeed student at FCAI and I like web development
+                and started studying it 2 years ago
+            </p>
+            <div class="content_btn"> 
+                <a href="#contact"><button>Let's talk</button></a>
+            </div> 
+        </div>
+       
+        <div class="home_img">
+            
+            <img src="images/me.jpg" alt="" width="300" height="350" loading="lazy";>
+        </div>
+   </main>
+
+<!--/*--------------------about section---------------------------*/-->
+   <section class="about" id="about">
+        <div class="about_img">
+            <img src="images/me.jpg" alt="" width="300" height="350" loading="lazy";>
+        </div>
+        <div class="about_content">
+            <h3>About <span>ME</span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Nobis ipsam dolorum, 
+                natus molestias corporis voluptatem, 
+                in praesentium placeat aliquid quos veniam harum?
+                Error neque ab magni perferendis repellendus consequatur
+                quidem molestiae eaque! Quos nostrum omnis debitis quam,
+                labore temporibus, suscipit voluptatum nihil soluta 
+                magnam consectetur tenetur! Harum enim veritatis architecto!</p>
+        </div>
+    </section>
+<!--/*-----------header containing the nav bar--------------------*/-->
+    <section class="projects" id="projects">
+
+        <h3 class="project_title">My Projects<h3>
+
+        <dev class="project_cards">
+            <dev class="project_card">
+                <div class="img_proj">
+                    <img src="images/projects.jpg" alt="" width="100" height="100" loading="lazy";>
+                </div>
+                <h3 class="project_name">Edits-and-Filters</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Optio pariatur quaerat esse 
+                    quibusdam officia in libero suscipit ea molestiae nam?
+                </p>
+                <div class="project_link">
+                    <a href="https://github.com/Alaa188/Edits-and-Filters" class="github_logo" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="#" class="live_demo" target="_blank">Live Demo</a>
+                </div>  
+            </dev>
+    
+            <dev class="project_card">
+                <div class="img_proj">
+                    <img src="images/projects.jpg" alt="" width="100" height="100" loading="lazy";>
+                </div>
+                <h3 class="project_name">Project 1</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Optio pariatur quaerat esse 
+                    quibusdam officia in libero suscipit ea molestiae nam?
+                </p>
+                <div class="project_link">
+                    <a href="#" class="github_logo" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="#" class="live_demo" target="_blank">Live Demo</a>
+                </div>  
+            </dev>
+    
+            <dev class="project_card">
+                <div class="img_proj">
+                    <img src="images/projects.jpg" alt="" width="100" height="100" loading="lazy";>
+                </div>
+                <h3 class="project_name">Project 1</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Optio pariatur quaerat esse 
+                    quibusdam officia in libero suscipit ea molestiae nam?
+                </p>
+                <div class="project_link">
+                    <a href="#" class="github_logo" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="#" class="live_demo" target="_blank">Live Demo</a>
+                </div>  
+            </dev>
+        </dev>
+    </section>
+<!--/*------------------contact section---------------------------*/-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span> </h2>
+        <form action="">
+            <div class="input_box">
+                <input type="text" name="fname" placeholder="full name" required>
+            </div>
+
+            <div class="input_box">
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="input_box">
+                <input type="number" name="phone" placeholder="phone number" required>
+            </div>
+
+            <div class="input_box">
+                <textarea placeholder="your message" required cols="30"></textarea>
+            </div>
+            <div class="send_btn">
+                <input type="submit" value="send">
+            </div>
+        </form>
+    </section>
+<!--/*------------------footer section---------------------------*/-->
+    <footer class="footer" id="footer">
+        <p>2024@alaasaeed all Rights Reserved</p>
+    </footer>
+</body>
+</html>
